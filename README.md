@@ -1,7 +1,6 @@
-
 # 📊 Excel Work Automation Project 🚀
 
-![Excel Banner](https://i.imgur.com/mPCiY5L.png)
+![Excel Banner](/assets/excel_automation.png)
 
 > A comprehensive suite of Excel workbooks and VBA macros designed to streamline data management, reporting, and automation. This project is your central hub for efficient spreadsheet processing.
 
@@ -29,12 +28,15 @@ This project leverages the power of Excel and VBA to automate repetitive tasks, 
 Here's a breakdown of the key components in this project:
 
 - **`MasterWorkbook.xlsx`** 📖
+
   - The heart of the project! This is the main workbook that likely ties everything together. It may contain control dashboards, summary reports, and buttons to trigger VBA macros.
 
 - **`Ledgers.xlsx`** 💰
+
   - A dedicated workbook for managing financial ledgers. This could include records of transactions, accounts payable/receivable, and other financial data.
 
 - **`August 2025.xlsx`** 📅
+
   - An example of a monthly data workbook. This format is likely used for periodic reporting and data analysis.
 
 - **`Code/`** 📁
