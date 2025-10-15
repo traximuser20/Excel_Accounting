@@ -1,6 +1,8 @@
 # 📊 Excel Work Automation Project 🚀
 
-![Excel Banner](/assets/excel_automation.png)
+<p align="center">
+  <img src="assets/excel_automation.png" alt="Excel Banner"/>
+</p>
 
 > A comprehensive suite of Excel workbooks and VBA macros designed to streamline data management, reporting, and automation. This project is your central hub for efficient spreadsheet processing.
 
