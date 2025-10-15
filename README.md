@@ -21,7 +21,7 @@ This project leverages the power of Excel and VBA to automate repetitive tasks, 
 - [🔧 Usage](#-usage)
 - [💻 The Code](#-the-code)
 - [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
+
 
 ---
 
@@ -29,22 +29,22 @@ This project leverages the power of Excel and VBA to automate repetitive tasks, 
 
 Here's a breakdown of the key components in this project:
 
-- **`MasterWorkbook.xlsx`** 📖
-
-  - The heart of the project! This is the main workbook that likely ties everything together. It may contain control dashboards, summary reports, and buttons to trigger VBA macros.
-
-- **`Ledgers.xlsx`** 💰
-
-  - A dedicated workbook for managing financial ledgers. This could include records of transactions, accounts payable/receivable, and other financial data.
-
-- **`August 2025.xlsx`** 📅
-
-  - An example of a monthly data workbook. This format is likely used for periodic reporting and data analysis.
+- **`files/`** 📁
+  - This directory contains all the Excel workbooks.
+  - **`MasterWorkbook.xlsx`** 📖
+    - The heart of the project! This is the main workbook that likely ties everything together. It may contain control dashboards, summary reports, and buttons to trigger VBA macros.
+  - **`Ledgers.xlsx`** 💰
+    - A dedicated workbook for managing financial ledgers. This could include records of transactions, accounts payable/receivable, and other financial data.
+  - **`August 2025.xlsx`** 📅
+    - An example of a monthly data workbook. This format is likely used for periodic reporting and data analysis.
 
 - **`Code/`** 📁
   - This directory contains the raw VBA source code. This allows for version control and easy sharing of the macros that power the automation.
     - `Module1.bas`, `Module2.bas`, ... : General purpose VBA procedures and functions.
     - `Sheet1.cls`: VBA code specifically for events and logic on a particular worksheet.
+
+- **`assets/`** 🖼️
+  - This directory contains assets for the project, like images for the README.
 
 ---
 
@@ -59,7 +59,7 @@ To get started with this project, you'll need:
 
 ## 🔧 Usage
 
-1.  **Open `MasterWorkbook.xlsx`**: This is the primary interface for the project.
+1.  **Open `files/MasterWorkbook.xlsx`**: This is the primary interface for the project.
 2.  **Explore the Dashboards**: Look for sheets that provide an overview or control panel.
 3.  **Run Macros**: Use buttons or shortcuts within the workbook to execute automated tasks like generating reports, importing data, or performing calculations.
 
